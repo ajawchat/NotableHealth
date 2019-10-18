@@ -8,11 +8,15 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: src/entry/handler.handler
     events:
       - http:
-          path: users/create
+          path: /doctors/{id}
           method: get
+          request:
+            parameters:
+              paths:
+                id: false
 
 plugins:
   - serverless-offline

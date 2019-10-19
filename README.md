@@ -22,10 +22,10 @@ DEL /doctors/:id/appointments/:appointmentId -> Delete a specific appointment fo
 
 
 ## Project structure
-src - Contains all source files
-src.entry - Contains the api request handlers
-src.models - Contains all the data structures required by the programs
-src.repositories - Contains mock data source clients (DB / HTTP / File IO)
-src.services - Contains the business logic
-
+src - Contains all source files  
+src.entry - Contains the api request handlers  
+src.models - Contains all the data structures required by the programs  
+src.repositories - Contains mock data source clients (DB / HTTP / File IO)  
+src.services - Contains the business logic  
+  
 tests - Contains all the unit and integration tests

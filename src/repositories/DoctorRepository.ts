@@ -1,4 +1,4 @@
-import _ from "lodash";
+import * as _ from "lodash";
 import { Doctor } from "../models/doctor";
 
 export class DoctorRepository {
